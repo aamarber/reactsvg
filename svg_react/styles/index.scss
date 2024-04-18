@@ -1,0 +1,23 @@
+@use './colors';
+$max-size: 10em;
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#root{  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: colors.$background;
+    color: #4a403a;
+    height: 100%;
+}
